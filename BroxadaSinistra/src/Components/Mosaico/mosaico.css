@@ -1,0 +1,18 @@
+#mosaico {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.mosaico-image {
+  min-width: 300px;
+  height: 200px;
+  flex: 1;
+  transition: .2s ease-out;
+}
+
+.mosaico-image:hover {
+  cursor: pointer;
+  transform: scale(110%);
+}
