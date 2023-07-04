@@ -1,11 +1,11 @@
-import Logo from "../../assets/Logo/banner.svg"
+import "./header.css"
 
 export default function Header() {
   return (
     <header>
-      <img src={ Logo } alt="" />
+      <h1 id="logo">Broxada<br />Sinistra</h1>
       <h2 id="countdown">
-        FALTAM  -- MESES, -- DIAS E -- HORAS
+        FALTAM -- MESES, -- DIAS E -- HORAS
       </h2>
     </header>
   )

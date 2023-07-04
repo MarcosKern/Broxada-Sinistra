@@ -1,0 +1,26 @@
+header {
+  height: 90dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5em;
+}
+
+#logo {
+  font-size: 6em;
+  font-family: 'Ninja Naruto';
+  color: #FB0304;
+  font-weight: 400;
+  text-align: center;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 5px;
+}
+
+#countdown {
+  font-size: 3em;
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: .3em;
+  font-weight: 300;
+}
