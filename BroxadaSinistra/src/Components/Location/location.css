@@ -1,5 +1,5 @@
 #location {
-  height: 30vh;
+  height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,5 +15,5 @@
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   color: white;
-  font-size: 2vw;
+  font-size: 1.6vw;
 }
