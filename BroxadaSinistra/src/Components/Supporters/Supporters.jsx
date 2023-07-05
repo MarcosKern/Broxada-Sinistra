@@ -6,7 +6,7 @@ import "./supporters.css"
 export default function Supporters() {
   return (
     <section>
-      <h3>apoios</h3>
+      <h3 id="supporters-section">apoios</h3>
       <div id="supporters">
         <img src={ Absolut } alt="Absoluto logo" />
         <img src={ Jameson } alt="Jameson logo" />

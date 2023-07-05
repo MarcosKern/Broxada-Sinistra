@@ -7,6 +7,7 @@ import MyContext from './Context/Context'
 import ImageModal from './Components/ImageModal/ImageModal'
 import Supporters from './Components/Supporters/Supporters'
 import Areas from './Components/Areas/Areas'
+import Location from './Components/Location/Location'
 
 function App() {
   const { expandImage } = useContext(MyContext);
@@ -18,6 +19,7 @@ function App() {
         <Mosaico />
         <Supporters />
         <Areas />
+        <Location />
       </section>
       {
         expandImage && <ImageModal />
