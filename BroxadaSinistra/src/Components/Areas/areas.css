@@ -1,0 +1,69 @@
+h4 {
+  letter-spacing: .2em;
+  font-weight: 300;
+  font-size: 3vw;
+}
+
+.area > .area-description > p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 1.4vw;
+}
+
+.area {
+  position: relative;
+  height: 44dvh;
+}
+
+.area-description {
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 35vw;
+  padding-inline: 3em;
+  backdrop-filter: blur(2px);
+}
+
+#common {
+  background-image: url(../../assets/backgrounds/commom-background.jpg);
+}
+
+#vip {
+  background-image: url(../../assets/backgrounds/vip-background.jpg);
+}
+
+.area {
+  background-color: #00000063;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: darken;
+}
+
+#vip > .area-description {
+  left: 0;
+  background: linear-gradient(135deg, #0000004a, #0b4cad2d);
+}
+
+#common > .area-description {
+  right: 0;
+  background: linear-gradient(-135deg, #00000076, #AD0B1E4d);
+}
+
+@media screen and (max-width: 640px) {
+  .area-description {
+    max-width: 45vh;
+  }
+
+  h4 {
+    font-size: 4vh;
+  }
+  
+  .area > .area-description > p {
+    font-size: 1.8vh;
+  }
+}

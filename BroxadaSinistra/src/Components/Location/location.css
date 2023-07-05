@@ -1,0 +1,19 @@
+#location {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#location a {
+  text-decoration: none;
+}
+
+#location p {
+  line-height: 3vw;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 1.6vw;
+}

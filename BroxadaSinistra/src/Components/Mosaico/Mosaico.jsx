@@ -10,7 +10,7 @@ export default function Mosaico() {
     setExpandImage(true)
   }
   return (
-    <>
+    <section>
       <h3 id='local'>O local</h3>
       <section id="mosaico">
         { images.map((image, index) => {
@@ -29,6 +29,6 @@ export default function Mosaico() {
           )
         }) }
       </section>
-    </>
+    </section>
   )
 }

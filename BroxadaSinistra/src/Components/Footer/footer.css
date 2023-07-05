@@ -1,0 +1,40 @@
+footer {
+  position: relative;
+  background-color: #171414;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+footer > img {
+  width: 25%;
+}
+
+.social-medias {
+  display: flex;
+  height: 5vw;
+  gap: 1.5vw;
+}
+
+.social-medias a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-medias img {
+  width: 60%;
+}
+
+small {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  bottom: 0;
+}
+
+small a {
+  font-family: 'Open Sans', sans-serif;
+}
