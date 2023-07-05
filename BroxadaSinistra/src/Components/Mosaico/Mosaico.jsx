@@ -24,6 +24,7 @@ export default function Mosaico() {
                 src={ image }
                 alt={ `Imagem do local ${index + 1}` }
               />
+              <p>expandir</p>
             </div>
           )
         }) }

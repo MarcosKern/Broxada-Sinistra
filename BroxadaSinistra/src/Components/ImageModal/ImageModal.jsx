@@ -6,7 +6,9 @@ import "./imageModal.css"
 export default function ImageModal() {
   const { currentExpandedImage, setExpandImage } = useContext(MyContext)
   return (
-    <section id="image-modal">
+    <section
+      id="image-modal"
+    >
       <img src={ currentExpandedImage } alt={ currentExpandedImage } />
       <button
         className="exit-modal-button"
