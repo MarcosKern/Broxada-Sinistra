@@ -13,3 +13,16 @@
 main {
   background-color: #24262E;
 }
+
+h1,
+h2,
+h3,
+a {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+h3 {
+  position: sticky;
+  top: 10dvh;
+  z-index: 2;
+}

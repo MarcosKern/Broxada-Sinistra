@@ -14,8 +14,12 @@ nav {
 nav a {
   color: white;
   text-decoration: none;
-  font-family: 'Bebas Neue', sans-serif;
   letter-spacing: .1em;
   flex: 1;
   text-align: center;
+  transition: .2s linear;
+}
+
+nav a:hover {
+  color: #cc1616;
 }

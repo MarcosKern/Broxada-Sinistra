@@ -1,18 +1,33 @@
+#local {
+  text-align: center;
+  font-size: 2vw;
+  letter-spacing: .2em;
+  background-color: #171414;
+  color: white;
+  font-weight: 300;
+}
+
 #mosaico {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .mosaico-image {
+  position: relative;
   min-width: 300px;
   height: 200px;
   flex: 1;
   transition: .2s ease-out;
 }
 
+.mosaico-image img {
+  height: 100%;
+  width: 100%;
+}
+
 .mosaico-image:hover {
   cursor: pointer;
-  transform: scale(110%);
+  filter: blur(2px);
 }
