@@ -1,12 +1,3 @@
-#local {
-  text-align: center;
-  font-size: 2vw;
-  letter-spacing: .2em;
-  background-color: #171414;
-  color: white;
-  font-weight: 300;
-}
-
 #mosaico {
   position: relative;
   display: flex;
@@ -48,4 +39,10 @@
 
 .mosaico-image:hover p {
   color: white;
+}
+
+@media screen and (max-width: 640px) {
+  .mosaico-image {
+    max-height: 250px;
+  }
 }

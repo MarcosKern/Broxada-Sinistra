@@ -1,0 +1,22 @@
+#supporters {
+  display: flex;
+  justify-content: space-around;
+  height: 30vh;
+}
+
+#supporters img {
+  width: 25%;
+}
+
+@media screen and (max-width: 640px) {
+  #supporters {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 50dvh;
+  }
+
+  #supporters img {
+    width: 70%;
+  }
+}
