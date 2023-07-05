@@ -1,0 +1,25 @@
+nav {
+  height: 10dvh;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding-inline: 10em;
+  gap: 2em;
+  align-items: center;
+  background-color: #171414;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: .1em;
+  flex: 1;
+  text-align: center;
+  transition: .2s linear;
+}
+
+nav a:hover {
+  color: #cc1616;
+}

@@ -1,0 +1,51 @@
+#local {
+  text-align: center;
+  font-size: 2vw;
+  letter-spacing: .2em;
+  background-color: #171414;
+  color: white;
+  font-weight: 300;
+}
+
+#mosaico {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+}
+
+.mosaico-image {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+  flex: 1;
+}
+
+.mosaico-image img {
+  width: 100%;
+  height: 100%;
+  transition: .2s ease-out;
+}
+
+.mosaico-image:hover {
+  cursor: pointer;
+}
+
+.mosaico-image p {
+  color: transparent;
+  position: absolute;
+  z-index: 1;
+  transition: .2s ease-out;
+  font-size: 4vw;
+}
+
+.mosaico-image:hover img {
+  filter: blur(2px);
+}
+
+.mosaico-image:hover p {
+  color: white;
+}

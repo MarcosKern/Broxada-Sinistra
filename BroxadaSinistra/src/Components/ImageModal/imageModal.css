@@ -1,0 +1,35 @@
+#image-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  background-color: #0000005a;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-type: none;
+}
+
+#image-modal img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.exit-modal-button {
+  background-color: transparent;
+  border: none;
+  border-radius: 100%;
+  margin: 1em;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .2s ease-in-out;
+}
+
+.exit-modal-button:hover {
+  cursor: pointer;
+}
+

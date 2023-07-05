@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+  font-family: "Ninja Naruto";
+  src: url('./Font/njnaruto.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #24262E;
+}
+
+h1,
+h2,
+h3,
+a,
+p {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+h3 {
+  position: sticky;
+  top: 10dvh;
+  z-index: 2;
+}
