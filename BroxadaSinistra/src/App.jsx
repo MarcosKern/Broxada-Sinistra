@@ -5,6 +5,7 @@ import Mosaico from './Components/Mosaico/Mosaico'
 import Navbar from './Components/Navbar/Navbar'
 import MyContext from './Context/Context'
 import ImageModal from './Components/ImageModal/ImageModal'
+import Supporters from './Components/Supporters/Supporters'
 
 function App() {
   const { expandImage } = useContext(MyContext);
@@ -14,6 +15,7 @@ function App() {
         <Navbar/>
         <Header />
         <Mosaico />
+        <Supporters />
       </section>
       {
         expandImage && <ImageModal />
