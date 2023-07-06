@@ -1,5 +1,6 @@
 import { useContext } from 'react'
 import './App.css'
+import 'animate.css'
 import Header from './Components/Header/Header'
 import Mosaico from './Components/Mosaico/Mosaico'
 import Navbar from './Components/Navbar/Navbar'
@@ -11,11 +12,11 @@ import Location from './Components/Location/Location'
 import Footer from './Components/Footer/Footer'
 
 function App() {
-  const { expandImage } = useContext(MyContext);
+  const { expandImage } = useContext(MyContext)
   return (
     <main>
       <section>
-        <Navbar/>
+        <Navbar />
         <Header />
         <Mosaico />
         <Supporters />
@@ -23,9 +24,7 @@ function App() {
         <Location />
         <Footer />
       </section>
-      {
-        expandImage && <ImageModal />
-      }
+      {expandImage && <ImageModal />}
     </main>
   )
 }

@@ -5,7 +5,7 @@ h4 {
 }
 
 .area > .area-description > p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: white;
   font-size: 1.4vw;
@@ -29,11 +29,11 @@ h4 {
 }
 
 #common {
-  background-image: url(../../assets/backgrounds/commom-background.jpg);
+  background-image: url(../../assets/backgrounds/commom-background.webp);
 }
 
 #vip {
-  background-image: url(../../assets/backgrounds/vip-background.jpg);
+  background-image: url(../../assets/backgrounds/vip-background.webp);
 }
 
 .area {

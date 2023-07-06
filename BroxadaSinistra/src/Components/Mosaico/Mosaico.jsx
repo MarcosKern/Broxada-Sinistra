@@ -9,19 +9,24 @@ export default function Mosaico() {
     await setCurrentExpandedImage(image);
     setExpandImage(true)
   }
+
   return (
     <section>
       <h3 id='local'>O local</h3>
       <section id="mosaico">
         { images.map((image, index) => {
+          const { img, thumb } = image;
           return (
             <div
-              key={ image }
+              key={ index }
               className="mosaico-image"
-              onClick={ () => showModal(image) }
+              onClick={ () => showModal(img) }
             >
               <img
-                src={ image }
+                loading="lazy"
+                height={6}
+                width={9}
+                src={ thumb }
                 alt={ `Imagem do local ${index + 1}` }
               />
               <p>expandir</p>
