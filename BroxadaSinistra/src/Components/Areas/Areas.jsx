@@ -1,4 +1,4 @@
-import "./areas.css"
+import './areas.css'
 
 export default function Areas() {
   return (
@@ -8,7 +8,8 @@ export default function Areas() {
         <div className="area-description">
           <h4>área VIP</h4>
           <p>
-            As áreas VIPS serão no <strong>mezanino</strong> e no <strong>estúdio aquário</strong>.
+            As áreas VIPS serão no <strong>mezanino</strong> e no{' '}
+            <strong>estúdio aquário</strong>.
             <br />
             Acesso ao local com <strong>influenciadores e convidados</strong>.
           </p>
@@ -18,7 +19,8 @@ export default function Areas() {
         <div className="area-description">
           <h4>área comum</h4>
           <p>
-            A área comum é localizada na <strong>arena</strong> e conta com <strong>Open bar</strong>.
+            A área comum é localizada na <strong>arena</strong> e conta com{' '}
+            <strong>Open bar</strong>.
           </p>
         </div>
       </div>

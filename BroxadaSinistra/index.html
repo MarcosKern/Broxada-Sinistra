@@ -21,5 +21,12 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if (!window.fetch) {
+        var script = document.createElement('script');
+        script.src = 'https://unpkg.com/unfetch';
+        document.head.appendChild(script);
+      }
+    </script>
   </body>
 </html>

@@ -10,6 +10,7 @@ footer {
 
 footer > img {
   width: 25%;
+  height: auto;
 }
 
 .social-medias {
@@ -26,6 +27,7 @@ footer > img {
 
 .social-medias img {
   width: 60%;
+  height: auto;
 }
 
 small {
