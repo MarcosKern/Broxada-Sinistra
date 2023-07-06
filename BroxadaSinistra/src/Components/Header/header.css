@@ -1,10 +1,17 @@
 header {
+  position: relative;
   height: 90dvh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 5em;
+  background-image: url(../../assets/backgrounds/banner-background.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.733);
 }
 
 #logo {

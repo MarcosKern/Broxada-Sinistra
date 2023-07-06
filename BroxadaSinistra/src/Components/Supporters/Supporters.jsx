@@ -1,16 +1,34 @@
 import Absolut from "../../assets/Supporters/Absolut.svg";
 import Jameson from "../../assets/Supporters/Jameson.svg";
 import Beefeater from "../../assets/Supporters/Beefeater.svg"
+import { useInView } from 'react-intersection-observer';
 import "./supporters.css"
 
 export default function Supporters() {
+  const { ref, inView } = useInView({});
+
   return (
     <section>
       <h3 id="supporters-section">apoios</h3>
       <div id="supporters">
-        <img src={ Absolut } alt="Absoluto logo" />
-        <img src={ Jameson } alt="Jameson logo" />
-        <img src={ Beefeater } alt="Beefeater logo" />
+        <img 
+          src={ Absolut }
+          alt="Absoluto logo"
+          className={ inView ? "animate__animated animate__fadeInUp show" : "hidden" }
+          loading="lazy"
+          onWheel={ (e) => console.log(e.isTrusted) }
+          ref={ref}
+        />
+        <img 
+          src={ Jameson }
+          alt="Jameson logo"
+          className={ inView ? "animate__animated animate__fadeInUp show delay-1" : "hidden" }
+        />
+        <img 
+          src={ Beefeater }
+          alt="Beefeater logo"
+          className={ inView ? "animate__animated animate__fadeInUp show delay-2" : "hidden" }
+        />
       </div>
     </section>
   )
