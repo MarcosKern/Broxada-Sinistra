@@ -20,6 +20,7 @@ export default function Mosaico() {
             <div
               key={ index }
               className="mosaico-image"
+              id={`mosaico-image-${index}`}
               onClick={ () => showModal(img) }
             >
               <img

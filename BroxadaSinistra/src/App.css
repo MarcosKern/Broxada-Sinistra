@@ -1,17 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600&display=swap');
-@font-face {
-  font-family: "Ninja Naruto";
-  src: url('./Font/njnaruto.ttf');
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
-  image-rendering: optimizeSpeed;
+  text-align: center;
 }
 
 main {
@@ -28,8 +20,15 @@ p {
   color: white;
 }
 
+p {
+  font-weight: 300;
+}
+
+strong {
+  font-weight: 400;
+}
+
 h3 {
-  text-align: center;
   font-size: 2vw;
   letter-spacing: .2em;
   background-color: #171414;

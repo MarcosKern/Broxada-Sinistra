@@ -9,33 +9,33 @@ import "./footer.css"
 export default function Footer() {
   return (
     <footer>
-      <img src={ Logo } alt="Logo do Broxada Sinistra Shippuden" />
+      <img src={ Logo } alt="Logo do Broxada Sinistra Shippuden" width="auto" height="auto" />
       <section className="social-medias">        
         <a
           href="https://www.instagram.com/broxadasinistra/"
           target="_blank"
           rel="noreferrer"
-        ><img src={Instagram} alt="" /></a>
+        ><img src={Instagram} alt="Logo do Instagram" width="auto" height="auto" /></a>
         <a 
           href="https://www.youtube.com/c/BroxadaSinistra"
           target="_blank"
           rel="noreferrer"
-        ><img src={Youtube} alt="" /></a>
+        ><img src={Youtube} alt="Logo do Youtube" width="auto" height="auto" /></a>
         <a 
           href="https://open.spotify.com/show/3BBBcT8KZzVznZuMWTW3ui"
           target="_blank"
           rel="noreferrer"
-        ><img src={Spotify} alt="" /></a>
+        ><img src={Spotify} alt="Logo do Spotify" width="auto" height="auto" /></a>
         <a 
           href="https://www.tiktok.com/@broxadasinistra"
           target="_blank"
           rel="noreferrer"
-        ><img src={Tiktok} alt="" /></a>
+        ><img src={Tiktok} alt="Logo do TikTok" width="auto" height="auto" /></a>
         <a 
           href="https://www.deezer.com/br/show/1356392"
           target="_blank"
           rel="noreferrer"
-        ><img src={Deezer} alt="" /></a>
+        ><img src={Deezer} alt="Logo da Deezer" width="auto" height="auto" /></a>
       </section>
       <small>Alfra Estúdios e Broxada Sinistra ® Todos direitos reservados. Design e desenvolvido por <a
         href="https://www.linkedin.com/in/marcoskern/"
