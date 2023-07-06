@@ -8,6 +8,7 @@
 
 #supporters img {
   width: 25%;
+  height: auto;
 }
 
 .hidden {
@@ -37,5 +38,6 @@
 
   #supporters img {
     width: 80%;
+    height: auto;
   }
 }

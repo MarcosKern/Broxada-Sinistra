@@ -2,16 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="svg" href="./src/assets/Logo/footer-logo.svg" />
+    <meta http-equiv="Content-Encoding" content="gzip">
+    <meta http-equiv="Content-Encoding" content="compress">
+    <meta http-equiv="Content-Encoding" content="deflate">
+    <meta http-equiv="Content-Encoding" content="br">
+    <meta http-equiv="Content-Encoding" content="identity">
+    <meta http-equiv="Content-Encoding" content="*">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta property="og:image" content="./src/assets/Logo/footer-logo.svg">
+    <meta name="description" content="Evento do podcast Broxada Sinistra em Alphaville dia 01/09">
     <title>Broxada Sinistra</title>
+    <link rel="icon" type="svg" href="./src/assets/Logo/footer-logo.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if (!window.fetch) {
+        var script = document.createElement('script');
+        script.src = 'https://unpkg.com/unfetch';
+        document.head.appendChild(script);
+      }
+    </script>
   </body>
 </html>

@@ -6,7 +6,7 @@ header {
   align-items: center;
   justify-content: center;
   gap: 5em;
-  background-image: url(../../assets/backgrounds/banner-background.webp);
+  background-image: url(../../assets/backgrounds/mobile-banner.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -15,7 +15,8 @@ header {
 }
 
 #logo {
-  width: 50%;
+  width: 60%;
+  height: auto;
 }
 
 #countdown {
@@ -33,5 +34,11 @@ header {
 
   #countdown {
     display: none;
+  }
+}
+
+@media screen and (min-width: 641px) {
+  header {
+    background-image: url(../../assets/backgrounds/desktop-banner.webp);
   }
 }
