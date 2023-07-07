@@ -56,7 +56,9 @@ h4 {
 
 @media screen and (max-width: 640px) {
   .area-description {
-    max-width: 45vh;
+    max-width: 100vw;
+    width: 100%;
+    backdrop-filter: blur(0px);
   }
 
   h4 {

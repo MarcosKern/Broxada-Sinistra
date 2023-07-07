@@ -1,23 +1,12 @@
 import { useState } from 'react'
 import Logo from '../../assets/Logo/banner-min.svg'
 import './header.css'
+import getTimeRemaining from '../../Services/countdown'
 
 export default function Header() {
   const [hours, setHours] = useState()
   const [days, setDays] = useState()
   const targetDate = new Date('2023-09-01')
-
-  function getTimeRemaining(endTime) {
-    let totalSeconds = Math.floor((endTime - Date.now()) / 1000)
-
-    let days = Math.floor(totalSeconds / (60 * 60 * 24))
-    let hours = Math.floor((totalSeconds % (60 * 60 * 24)) / (60 * 60))
-
-    return {
-      days: days,
-      hours: hours,
-    }
-  }
 
   function displayCountdown() {
     const countdown = getTimeRemaining(targetDate)

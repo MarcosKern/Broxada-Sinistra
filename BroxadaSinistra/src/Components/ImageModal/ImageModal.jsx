@@ -7,7 +7,11 @@ export default function ImageModal() {
   const { currentExpandedImage, setExpandImage } = useContext(MyContext)
   return (
     <section id="image-modal">
-      <img src={currentExpandedImage} alt={currentExpandedImage} />
+      <img
+        src={currentExpandedImage}
+        alt={currentExpandedImage}
+        sizes='1200 x 1024'
+      />
       <button
         className="exit-modal-button"
         onClick={() => setExpandImage(false)}

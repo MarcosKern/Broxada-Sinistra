@@ -46,6 +46,7 @@ h4 {
 @media screen and (max-width: 640px) {
   h3 {
     font-size: 4vh;
+    top: 0;
   }
 
   h4 {

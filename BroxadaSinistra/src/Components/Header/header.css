@@ -28,6 +28,10 @@ header {
 }
 
 @media screen and (max-width: 640px) {
+  header {
+    height: 100dvh;
+  }
+
   #logo {
     width: 100%;
   }
