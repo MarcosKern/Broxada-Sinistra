@@ -43,7 +43,8 @@
 
   #mosaico {
     flex-direction: column;
-    height: 400dvh;
+    gap: 2vw;
+    height: 300dvh;
     overflow: hidden;
   }
 }

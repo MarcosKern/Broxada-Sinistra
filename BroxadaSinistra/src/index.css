@@ -37,6 +37,7 @@ h3 {
   position: sticky;
   top: 10dvh;
   z-index: 2;
+  padding: .2em;
 }
 
 h4 {

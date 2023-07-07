@@ -27,6 +27,6 @@ nav a:hover {
 
 @media screen and (max-width: 640px) {
   nav {
-    display: none;
+    height: 10dvh;
   }
 }

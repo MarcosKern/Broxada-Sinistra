@@ -34,7 +34,6 @@ small {
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.1vw;
-  position: absolute;
   bottom: 0;
 }
 
@@ -46,4 +45,10 @@ small a {
   small {
     font-size: 1.5vw;
   }
+
+
+.social-medias img {
+  width: 40%;
+  height: auto;
+}
 }

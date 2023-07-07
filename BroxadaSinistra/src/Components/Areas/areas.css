@@ -55,6 +55,11 @@ h4 {
 }
 
 @media screen and (max-width: 640px) {
+  .area {
+    flex-direction: column;
+    gap: 1vw;
+  }
+
   .area-description {
     max-width: 100vw;
     width: 100%;
@@ -67,5 +72,17 @@ h4 {
   
   .area > .area-description > p {
     font-size: 1.8vh;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+  .area > .area-description > p {
+    font-size: 1.8vh;
+  }
+}
+
+@media screen and (min-height: 1000px) {
+  .area {
+    height: 30dvh;
   }
 }
