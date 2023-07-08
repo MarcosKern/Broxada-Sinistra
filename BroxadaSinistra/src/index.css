@@ -37,6 +37,7 @@ h3 {
   position: sticky;
   top: 10dvh;
   z-index: 2;
+  padding: .2em;
 }
 
 h4 {
@@ -46,6 +47,7 @@ h4 {
 @media screen and (max-width: 640px) {
   h3 {
     font-size: 4vh;
+    top: 0;
   }
 
   h4 {

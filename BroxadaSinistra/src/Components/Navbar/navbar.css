@@ -24,3 +24,9 @@ nav a {
 nav a:hover {
   color: #cc1616;
 }
+
+@media screen and (max-width: 640px) {
+  nav {
+    height: 10dvh;
+  }
+}

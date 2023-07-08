@@ -1,5 +1,6 @@
 #location {
-  height: 40vh;
+  position: relative;
+  height: 50vh;
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -20,4 +21,28 @@
 .map {
   height: 100%;
   border: none;
+}
+
+.address {
+  height: 3vw;
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #171414;
+  padding: .9em;
+}
+
+@media screen and (max-width: 640px) {
+  .address {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (min-height: 1000px) {
+  #location {
+    height: 30vh;
+  }
 }

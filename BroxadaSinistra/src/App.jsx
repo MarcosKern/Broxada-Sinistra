@@ -10,6 +10,7 @@ import Supporters from './Components/Supporters/Supporters'
 import Areas from './Components/Areas/Areas'
 import Location from './Components/Location/Location'
 import Footer from './Components/Footer/Footer'
+import BuyTicket from './Components/BuyTicket/BuyTicket'
 
 function App() {
   const { expandImage } = useContext(MyContext)
@@ -22,6 +23,7 @@ function App() {
         <Supporters />
         <Areas />
         <Location />
+        <BuyTicket />
         <Footer />
       </section>
       {expandImage && <ImageModal />}

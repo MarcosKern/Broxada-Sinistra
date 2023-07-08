@@ -38,6 +38,7 @@
 
   #supporters img {
     width: 80%;
+    max-width: 320px;
     height: auto;
   }
 }

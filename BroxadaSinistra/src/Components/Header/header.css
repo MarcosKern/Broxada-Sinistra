@@ -28,12 +28,17 @@ header {
 }
 
 @media screen and (max-width: 640px) {
+  header {
+    height: 90dvh;
+  }
+  
   #logo {
     width: 100%;
   }
 
   #countdown {
-    display: none;
+    font-size: 3.6vh;
+    padding: 1vh;
   }
 }
 

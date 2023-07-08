@@ -25,9 +25,8 @@ export default function Mosaico() {
             >
               <img
                 loading="lazy"
-                height={600}
+                height={1280}
                 width={900}
-                sizes='900 x 600'
                 src={thumb}
                 alt={`Imagem do local ${index + 1}`}
               />

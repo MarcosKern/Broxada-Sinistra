@@ -10,6 +10,9 @@ export default function Location() {
         className="map"
         title="map"
       ></iframe>
+      <a href="https://goo.gl/maps/2nwVJKYXDfWpfjh59" target='_blank' rel="noreferrer"  className='address'>
+        Endereço: Alameda Tocantins 630 - galpão 05, Alphaville Industrial, Barueri, Sp
+      </a>
     </section>
   )
 }

@@ -36,16 +36,25 @@
   font-size: 4vw;
 }
 
-.mosaico-image:hover img {
-  filter: blur(2px);
-}
-
-.mosaico-image:hover p {
-  color: white;
-}
-
 @media screen and (max-width: 640px) {
   .mosaico-image {
-    max-height: 250px;
+    min-width: none;
+  }
+
+  #mosaico {
+    flex-direction: column;
+    gap: 2vw;
+    height: 300dvh;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 641px) {
+  .mosaico-image:hover img {
+    filter: blur(2px);
+  }
+  
+  .mosaico-image:hover p {
+    color: white;
   }
 }
