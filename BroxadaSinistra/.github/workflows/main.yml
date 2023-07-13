@@ -9,10 +9,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v2
+
+    - name: Use Node.js 14
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+      
+    - name: 🔨 Build Project
+      run: |
+        npm install
+        npm run build
     
+    - name: List output files
+      run: find build/ -print
+      
     - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
         server: ${{ secrets.ftp_host }}
         username: ${{ secrets.ftp_user }}
