@@ -6,7 +6,7 @@ import getTimeRemaining from '../../Services/countdown'
 export default function Header() {
   const [hours, setHours] = useState()
   const [days, setDays] = useState()
-  const targetDate = new Date('2023-09-01')
+  const targetDate = new Date('2023-09-01 19:00:00')
 
   function displayCountdown() {
     const countdown = getTimeRemaining(targetDate)
@@ -25,11 +25,22 @@ export default function Header() {
         width={200}
         height={200}
       />
+      <p
+        id='date'
+        className="animate__animated animate__fadeIn animate__delay-1s"
+      >
+        DIA 01/09 AS 19 HORAS
+      </p>
       <h2
         id="countdown"
         className="animate__animated animate__fadeIn animate__delay-1s"
       >
-        FALTAM {days} DIA{days != 1 && 'S'} E {hours} HORA{hours != 1 && 'S'}!
+        {
+          days === 0
+            ? 'É HOJE'
+            : `FALTAM ${days} DIA${days != 1 && 'S'} E ${hours} HORA${hours != 1 && 'S'}!`
+        }
+        
       </h2>
     </header>
   )

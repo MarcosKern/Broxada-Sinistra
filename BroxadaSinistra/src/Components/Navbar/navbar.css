@@ -28,5 +28,22 @@ nav a:hover {
 @media screen and (max-width: 640px) {
   nav {
     height: 10dvh;
+    padding-inline: 2em;
+    justify-content: space-evenly;
+  }
+
+  nav a {
+    font-size: 3.2vw;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-height: 640px) {
+  nav {
+    padding-inline: 2em;
+  }
+
+  nav a {
+    font-size: 3.6vh;
   }
 }
