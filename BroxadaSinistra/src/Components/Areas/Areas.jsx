@@ -12,6 +12,8 @@ export default function Areas() {
             <strong>estúdio aquário</strong>.
             <br />
             Acesso ao local com <strong>influenciadores e convidados</strong>.
+            <br />
+            <strong>Open bar.</strong>
           </p>
         </div>
       </div>
@@ -19,7 +21,8 @@ export default function Areas() {
         <div className="area-description">
           <h4>área comum</h4>
           <p>
-            A área comum é localizada na <strong>arena</strong> e conta com{' '}
+            A área comum é localizada na <strong>arena</strong>.
+            <br />
             <strong>Open bar</strong>.
           </p>
         </div>

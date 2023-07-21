@@ -29,7 +29,7 @@ export default function Header() {
         id='date'
         className="animate__animated animate__fadeIn animate__delay-1s"
       >
-        DIA 01/09 AS 19 HORAS
+        DIA 01/09 ÀS 19 HORAS
       </p>
       <h2
         id="countdown"
@@ -42,6 +42,11 @@ export default function Header() {
         }
         
       </h2>
+      <p
+        id='party-description'
+      >
+        Venha curtir a festa e uma gravação ao vivo do Broxada com participação da plateia!
+      </p>
     </header>
   )
 }
