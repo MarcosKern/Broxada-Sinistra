@@ -1,6 +1,7 @@
 import Absolut from '../../assets/Supporters/Absolut.svg'
 import Jameson from '../../assets/Supporters/Jameson.svg'
 import Beefeater from '../../assets/Supporters/Beefeater.svg'
+import Bastards from '../../assets/Supporters/Bastards.svg'
 import { useInView } from 'react-intersection-observer'
 import './supporters.css'
 export default function Supporters() {
@@ -39,7 +40,19 @@ export default function Supporters() {
           alt="Beefeater logo"
           className={
             inView
-              ? 'animate__animated animate__fadeInUp show delay-2'
+              ? 'animate__animated animate__fadeInUp show delay-1'
+              : 'hidden'
+          }
+          ref={ref}
+          width={200}
+          height={200}
+        />
+        <img
+          src={Bastards}
+          alt="Bastards logo"
+          className={
+            inView
+              ? 'animate__animated animate__fadeInUp show'
               : 'hidden'
           }
           ref={ref}
