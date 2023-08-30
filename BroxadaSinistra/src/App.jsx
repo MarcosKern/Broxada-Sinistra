@@ -11,6 +11,7 @@ import Areas from './Components/Areas/Areas'
 import Location from './Components/Location/Location'
 import Footer from './Components/Footer/Footer'
 import BuyTicket from './Components/BuyTicket/BuyTicket'
+import Inv from './Components/VIPs/Inv'
 
 function App() {
   const { expandImage } = useContext(MyContext)
@@ -19,6 +20,7 @@ function App() {
       <section>
         <Navbar />
         <Header />
+        <Inv />
         <Mosaico />
         <Supporters />
         <Areas />

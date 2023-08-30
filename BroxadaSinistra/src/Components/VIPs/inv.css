@@ -1,0 +1,13 @@
+.VIPS {
+  display: flex;
+  height: 80dvh;
+  justify-content: space-around;
+}
+
+.name {
+  position: absolute;
+  padding: .5em;
+  font-size: x-large;
+  background-color: #0007;
+  border-bottom-right-radius: 20px;
+}
