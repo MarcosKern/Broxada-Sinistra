@@ -11,6 +11,7 @@ import Areas from './Components/Areas/Areas'
 import Location from './Components/Location/Location'
 import Footer from './Components/Footer/Footer'
 import BuyTicket from './Components/BuyTicket/BuyTicket'
+import sitePreview from './assets/PreviewImage/sitePreview.png'
 
 function App() {
   const { expandImage } = useContext(MyContext)
