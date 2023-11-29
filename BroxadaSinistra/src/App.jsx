@@ -17,7 +17,7 @@ function App() {
   const { expandImage } = useContext(MyContext)
   return (
     <main>
-      <img href={sitePreview} />
+      <meta property="og:image" content={ sitePreview }>
       <section>
         <Navbar />
         <Header />
